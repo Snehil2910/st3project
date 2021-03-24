@@ -1,0 +1,56 @@
+#myform{
+    position: absolute;
+    height: 346px;
+    width: 294px;
+    top: 54px;
+    left: 469px;
+    padding: 33px;
+    background-color: rgb(173, 173, 241);
+    border: 2px solid black;
+
+}
+#title{
+    border-bottom:2px solid #CCC;
+    text-align: center;
+}
+#inputs{
+    position: absolute;
+    margin-top: 10px;
+    top: 100px;
+    left: -22px;
+}
+label{
+    padding-bottom: 18px;
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+input[type="text"]{
+    width: 54%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-left: 10px;
+}
+#submit{
+    position: absolute;
+    width: 126px;
+    height: 32px;
+    top: 225px;
+    left: 118px;
+    background-color: rgb(255, 157, 122)
+}
+
+#partition{
+    position: absolute;
+    top: 326px;
+    left: 469px;
+    width: 360px;
+}
+#result{
+    position: absolute;
+    top: 330px;
+    left: 495px;
+
+}
+^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$
